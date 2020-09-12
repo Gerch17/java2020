@@ -1,7 +1,5 @@
-package ru.gerch.ex2;
+package ru.gerch.ex2.taskCircle;
 
-
-import org.w3c.dom.ls.LSOutput;
 
 public class Circle {
     private static double rad;
