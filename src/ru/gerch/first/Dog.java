@@ -1,19 +1,19 @@
 package ru.gerch.first;
 
 public class Dog {
-    private static string name;
+    private static String name;
     private static int age;
 
-    public Dog(string name, int age) {
+    public Dog(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public static string getName() {
+    public static String getName() {
         return name;
     }
 
-    public static void setName(string name) {
+    public static void setName(String name) {
         Dog.name = name;
     }
 
