@@ -3,6 +3,9 @@ package ru.gerch.ex2.taskHuman;
 public class Head {
     private static String color;
 
+    public Head() {
+    }
+
     public Head(String color) {
         Head.color = color;
     }

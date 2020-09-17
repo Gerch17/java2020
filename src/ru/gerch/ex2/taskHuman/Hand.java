@@ -1,24 +1,28 @@
 package ru.gerch.ex2.taskHuman;
 
 public class Hand {
-    private static boolean isBroken;
+    private boolean isBroken = true;
 
     public Hand(boolean isBroken) {
-        Hand.isBroken = isBroken;
+        this.isBroken = isBroken;
     }
 
-    public static void isIsBroken() {
-        if(isBroken == true)
+    public Hand() {
+    }
+
+    public void isIsBroken() {
+        if(isBroken)
         {
-            System.out.println("Рука целая");
-        }else
+            System.out.print("Рука целая");
+        }
+        if(!isBroken)
         {
-            System.out.println("Рука сломана");
+            System.out.print("Рука сломана");
         }
 
     }
 
-    public static void setIsBroken(boolean isBroken) {
-        Hand.isBroken = isBroken;
+    public void setIsBroken(boolean isBroken) {
+        this.isBroken = isBroken;
     }
 }

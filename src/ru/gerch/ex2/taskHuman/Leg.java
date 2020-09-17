@@ -1,17 +1,20 @@
 package ru.gerch.ex2.taskHuman;
 
 public class Leg {
-    private static int length;
+    private int length = 0;
 
-    public Leg(int length) {
-        Leg.length = length;
+    public Leg() {
     }
 
-    public static int getLength() {
+    public Leg(int length) {
+        this.length = length;
+    }
+
+    public int getLength() {
         return length;
     }
 
-    public static void setLength(int length) {
-        Leg.length = length;
+    public void setLength(int length) {
+        this.length = length;
     }
 }

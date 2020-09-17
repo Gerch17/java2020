@@ -1,57 +1,60 @@
 package ru.gerch.ex2.taskHuman;
 
 public class Human {
-    private static Hand handRight;
-    private static Hand handLeft;
-    private static Leg legRight;
-    private static Leg legLeft;
-    private static Head head;
+    private Hand handRight = new Hand();
+    private Hand handLeft = new Hand();
+    private Leg legRight = new Leg();
+    private Leg legLeft = new Leg();
+    private Head head = new Head();
 
-    public Human(Hand handRight, Hand handLeft, Leg legLeft, Leg legRight, Head head) {
-        Human.handRight = handRight;
-        Human.handLeft = handLeft;
-        Human.legLeft = legLeft;
-        Human.legRight = legRight;
-        Human.head = head;
+    public Human() {
     }
 
-    public static void setHead(Head head) {
-        Human.head = head;
+    public Human(Boolean isBrokenRight, Boolean isBrokenLeft, int legLeftLength, int legRightLength, String headColor) {
+        handRight.setIsBroken(isBrokenRight);
+        handLeft.setIsBroken(isBrokenLeft);
+        legLeft.setLength(legLeftLength);
+        legRight.setLength(legRightLength);
+        head.setColor(headColor);
     }
 
-    public static void setLegLeft(Leg legLeft) {
-        Human.legLeft = legLeft;
+    public void setHead(String  headColor) {
+        head.setColor(headColor);
     }
 
-    public static void setLegRight(Leg legRight) {
-        Human.legRight = legRight;
+    public void setLegLeft(int length) {
+        legLeft.setLength(length);
     }
 
-    public static void setHandLeft(Hand handLeft) {
-        Human.handLeft = handLeft;
+    public void setLegRight(int length) {
+        legRight.setLength(length);
     }
 
-    public static void setHandRight(Hand handRight) {
-        Human.handRight = handRight;
+    public void setHandLeft(Boolean isBroken) {
+        handLeft.setIsBroken(isBroken);
     }
 
-    public static Head getHead() {
-        return head;
+    public void setHandRight(Boolean isBroken) {
+        handRight.setIsBroken(isBroken);
     }
 
-    public static Leg getLegLeft() {
-        return legLeft;
+    public String getHead() {
+        return head.getColor();
     }
 
-    public static Leg getLegRight() {
-        return legRight;
+    public int getLegLeft() {
+        return legLeft.getLength();
     }
 
-    public static void getHandLeft() {
+    public int getLegRight() {
+        return legRight.getLength();
+    }
+
+    public void getHandLeft() {
         handLeft.isIsBroken();
     }
 
-    public static void getHandRight() {
+    public void getHandRight() {
         handRight.isIsBroken();
     }
 }
