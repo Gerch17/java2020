@@ -1,4 +1,4 @@
-package ru.gerch.first.Proc;
+package ru.gerch.ex2.Proc;
 
 import java.util.Arrays;
 import java.util.Random;

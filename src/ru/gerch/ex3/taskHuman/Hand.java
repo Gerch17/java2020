@@ -1,4 +1,4 @@
-package ru.gerch.ex2.taskHuman;
+package ru.gerch.ex3.taskHuman;
 
 public class Hand {
     private boolean isBroken = true;

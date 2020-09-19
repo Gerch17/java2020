@@ -1,4 +1,4 @@
-package ru.gerch.first;
+package ru.gerch.ex2;
 
 import java.util.Arrays;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package ru.gerch.ex2.taskBook;
+package ru.gerch.ex3.taskBook;
 
 public class Book {
     private String author;

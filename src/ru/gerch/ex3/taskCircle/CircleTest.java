@@ -1,4 +1,4 @@
-package ru.gerch.ex2.taskCircle;
+package ru.gerch.ex3.taskCircle;
 
 public class CircleTest {
 

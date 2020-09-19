@@ -1,4 +1,4 @@
-package ru.gerch.ex3;
+package ru.gerch.ex4;
 
 
 public class Author {

@@ -1,4 +1,4 @@
-package ru.gerch.first;
+package ru.gerch.ex2;
 
 public class Dog {
     private static String name;

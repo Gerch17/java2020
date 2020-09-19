@@ -1,4 +1,4 @@
-package ru.gerch.ex2.taskHuman;
+package ru.gerch.ex3.taskHuman;
 
 public class Head {
     private static String color;

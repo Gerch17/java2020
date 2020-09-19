@@ -1,6 +1,6 @@
-package ru.gerch.first;
+package ru.gerch.ex2;
 
-import java.util.ArrayList;
+import ru.gerch.ex2.Dog;
 
 public class Pitomnik {
     private static Dog[] pit = new Dog[20];
