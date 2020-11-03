@@ -55,9 +55,9 @@ public class GameField extends JPanel implements ActionListener {
 
     public void loadImages()
     {
-        ImageIcon foodBurger = new ImageIcon("/home/gerch/Desktop/git/java/src/ru/gerch/ex17/Disk.png");
+        ImageIcon foodBurger = new ImageIcon("/home/gerch/Desktop/git/java/src/ru/gerch/ex17/Disk.png");// put here your own path
         food = foodBurger.getImage();
-        ImageIcon snakeIcon = new ImageIcon("/home/gerch/Desktop/git/java/src/ru/gerch/ex17/User.png");
+        ImageIcon snakeIcon = new ImageIcon("/home/gerch/Desktop/git/java/src/ru/gerch/ex17/User.png");// put here your own path
         dot = snakeIcon.getImage();
     }
 
